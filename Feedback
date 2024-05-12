@@ -1,0 +1,36 @@
+Overall GitHub Structure
+
+1. The GitHub structure is well-organized. The layout on GitHub allows us to easily distinguish between the original data and clean data, which are neatly placed in separate folders. One suggestion for improvement concerns the format of the reports: it would be more convenient to upload reports as PDF files rather than DOCX files. This lets people view the files directly on the platform without downloading them to their local environment.
+Furthermore, the names of each notebook file should be clearer. For instance, “Week 1 Report” should be renamed to “Week 1_Defining the Research Problem”; “Week 2 Report” should be “Week 2_Ingesting the Features”, etc. The filenames should accurately reflect the purpose of each week’s content
+2. Furthermore, the names of each notebook file should be clearer. For instance, “Week 1 Report” should be renamed to “Week 1_Defining the Research Problem”; “Week 2 Report” should be “Week 2_Ingesting the Features”, etc. The filenames should accurately reflect the purpose of each week’s content
+
+Code/Jupyer Notebook
+
+1. In reviewing the final notebook for your capstone project, several areas need addressing to enhance its clarity and usefulness. 
+2. Firstly, the notebook lacks a clear problem statement, crucial for setting the context and defining the project's scope. It's challenging to grasp the work's objective and significance without this. 
+3. Additionally, the notebook should avoid using pie charts, as they may not effectively represent the data compared to other visualizations.
+4. Another significant oversight is the absence of a feature description. The current presentation assumes a level of pre-existing knowledge, which might lead to confusion among peer reviewers unfamiliar with the data set's specifics.
+A detailed explanation of each feature is essential for understanding how they contribute to the analysis and the results obtained.
+
+Code Output
+
+1. The review of your project indicates that the code is notably concise, which is commendable for maintaining readability and manageability. 
+However, there are a few suggestions that could further enhance the organization and reproducibility of your work. 
+It is advisable to save the best training model in separate pickle files within a designated 'models' folder. 
+This practice not only aids in version control but also simplifies model deployment and testing processes.
+
+2. Additionally, the criteria for selecting the best model were not evident in the notebooks for week 13&14. 
+Specifying which metrics were prioritized during the model selection phase is essential, as this transparency is crucial for understanding the model's performance objectives and validation strategy. 
+3. Lastly, a more detailed explanation of how hyper-parameters were defined and chosen in the random forest algorithm would be beneficial. 
+Whether these parameters were tuned using grid-search cross-validation or through manual experimentation should be clearly explained to provide insights into the decision-making process behind the model optimization.
+
+Project Report
+
+In reviewing the overall project, it is recommended to enhance the methodology section to provide a more comprehensive overview of the approaches used throughout the research. 
+The final report lacks detailed and meaningful insights from the exploratory data analysis (EDA), which is a critical component for understanding the narrative of the data currently in use. 
+EDA helps to illuminate key patterns and anomalies, guiding subsequent data cleaning and preprocessing stages.
+
+The data preprocessing section is well-executed, but there is room for improvement in detailing the techniques employed. 
+Including additional graphs and thorough explanations to demonstrate processes such as detecting and removing outliers would be beneficial. 
+These enhancements will not only improve the transparency of the methods used but also bolster the reliability of the findings by providing clear rationales for the chosen data-manipulating strategies.
+
